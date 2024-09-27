@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define Docker Hub credentials ID
-        DOCKERHUB_CREDENTIALS_ID = 'jukkkiss'
+        DOCKERHUB_CREDENTIALS_ID = '243f7d21-23be-420b-9da9-94949cf7172b'
         // Define Docker Hub repository name
         DOCKERHUB_REPO = 'jukkiss/lecturedemo3'
         // Define Docker image tag
