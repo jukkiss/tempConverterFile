@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git 'https://github.com/jukkiss/tempConverterFile.git'
+                git branch: 'main', url: 'https://github.com/jukkiss/dockerfirst.git'
             }
         }
         stage('Build Docker Image') {
